@@ -1,4 +1,4 @@
-package com.nkufall2021.twoactivities;
+package com.nkufall2021.twoactivitiessecond;
 
 import org.junit.Test;
 

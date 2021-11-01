@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.nkufall2021.twoactivities">
+    package="com.nkufall2021.twoactivitiessecond">
 
     <application
         android:allowBackup="true"
@@ -10,16 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TwoActivities">
         <activity
-            android:name=".SecondActivity"
+            android:name="com.nkufall2021.twoactivitiessecond.SecondActivity"
             android:label = "Text"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.nkufall2021.twoactivitiessecond.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=
-                    "com.nkufall2021.twoactivities.MainActivity" />
+                    "twoactivitiessecond.MainActivity" />
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.nkufall2021.twoactivitiessecond.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
